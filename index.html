@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caio Amaral</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="profile">
+            <img src="./assets/Caio.png" alt="Foto de Caio Amaral, de boné preto, óculos, na varanda.">
+            <p>cjam@cesar.school</p>
+        </div>
+        <div id="switch">
+            <span></span>
+            <button onclick="toggleTheme()"></button>
+        </div>
+        <ul id="links">
+            <li><a href="https://www.linkedin.com/in/caio-amaral-4b6204270/" target="_blank">Visite meu LinkedIn</a></li>
+            <li><a href="https://www.github.com/caioamaral-io" target="_blank">Visite meu GitHub</a></li>
+            <li><a href="https://mail.google.com/" target="_blank">Entre em Contato</a></li>
+        </ul>
+        <div id="social-links">
+            <a href="https://github.com/caioamaral-io" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/caio-amaral-4b6204270/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+        <footer>
+            Feito por <a href="https://github.com/caioamaral-io">Caio Amaral</a>
+        </footer>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle('light');
+        }
+    </script>
+</body>
+</html>
